@@ -717,6 +717,14 @@ The following papers are helpful for researchers to better understand this  fiel
 
 <span id="Ref-24">[24] Yang, Kunping, et al. Asymmetric Siamese Networks for Semantic Change Detection. arXiv preprint arXiv:2010.05687 (2020). [<a href="https://arxiv.org/abs/2010.05687" target="_blank">CrossRef</a>] </span>
 
+## 8. Simple change detection example
+
+A Python script `detect_change.py` provides a simple approach to compute a binary change map from two aligned satellite images. Run:
+```bash
+python3 detect_change.py before.png after.png output.png --threshold 0.2
+```
+
+
 ## Cite
 If you find this review helpful to you, please consider citing our paper. [<a href="https://doi.org/10.3390/rs12101688" target="_blank">Open Access</a>]
 
